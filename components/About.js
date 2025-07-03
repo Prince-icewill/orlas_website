@@ -86,11 +86,11 @@ function About({ setCurrentPage }) {
             <div className="testimonial-card">
               <div className="stars">⭐⭐⭐⭐⭐</div>
               <p className="testimonial-text">
-                "Orlas Place has completely transformed my wardrobe. The quality and attention to detail in every piece
+                "Orlas Place has completely transformed my Wigs. The quality and attention to detail in every piece
                 is exceptional."
               </p>
               <div className="testimonial-author">Miss Olamide</div>
-              <div className="testimonial-role">Fashion Enthusiast</div>
+              <div className="testimonial-role">Luxury Hairs Enthusiast</div>
             </div>
 
             <div className="testimonial-card">

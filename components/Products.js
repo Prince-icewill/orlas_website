@@ -12,7 +12,7 @@ function Products({ addToCart }) {
   const categories = [
     { id: "all", name: "All Products", icon: "🌟" },
     { id: "jewelry", name: "Jewelry", icon: "💎" },
-    { id: "Luxury hairs", name: "Hair Wigs", icon: "✂️" },
+    { id: "Luxury hairs", name: "Luxury hairs", icon: "✂️" },
     { id: "perfume", name: "Perfumes", icon: "✨" },
     { id: "skincare", name: "Skincare", icon: "💚" },
   ]

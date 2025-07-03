@@ -90,7 +90,7 @@ function About({ setCurrentPage }) {
                 is exceptional."
               </p>
               <div className="testimonial-author">Miss Olamide</div>
-              <div className="testimonial-role">Luxury Hairs Enthusiast</div>
+              <div className="testimonial-role">Luxury Hair Enthusiast</div>
             </div>
 
             <div className="testimonial-card">

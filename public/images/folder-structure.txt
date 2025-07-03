@@ -1,0 +1,76 @@
+ORLAS-PLACE Image Organization Guide
+===================================
+
+Create these folders in your public/images directory:
+
+public/
+└── images/
+    ├── owner.jpg                    (Owner's photo - Orla)
+    ├── jewelry/
+    │   ├── necklace1.jpg           (Gold Chain Necklace 1)
+    │   ├── necklace2.jpg           (Silver Pendant Necklace 2)
+    │   ├── necklace3.jpg           (Diamond Necklace 3)
+    │   ├── necklace4.jpg           (Pearl Necklace 4)
+    │   ├── necklace5.jpg           (Crystal Necklace 5)
+    │   ├── necklace6.jpg           (Choker Necklace 6)
+    │   ├── necklace7.jpg           (Statement Necklace 7)
+    │   ├── necklace8.jpg           (Layered Necklace 8)
+    │   ├── necklace9.jpg           (Vintage Necklace 9)
+    │   ├── necklace10.jpg          (Modern Necklace 10)
+    │   ├── necklace11.jpg          (Elegant Necklace 11)
+    │   ├── necklace12.jpg          (Luxury Necklace 12)
+    │   ├── necklace13.jpg          (Classic Necklace 13)
+    │   ├── necklace14.jpg          (Trendy Necklace 14)
+    │   ├── necklace15.jpg          (Bohemian Necklace 15)
+    │   ├── necklace16.jpg          (Minimalist Necklace 16)
+    │   ├── necklace17.jpg          (Bold Necklace 17)
+    │   ├── necklace18.jpg          (Delicate Necklace 18)
+    │   ├── necklace19.jpg          (Sparkly Necklace 19)
+    │   ├── necklace20.jpg          (Charm Necklace 20)
+    │   ├── necklace21.jpg          (Beaded Necklace 21)
+    │   ├── necklace22.jpg          (Gemstone Necklace 22)
+    │   ├── necklace23.jpg          (Art Deco Necklace 23)
+    │   ├── necklace24.jpg          (Floral Necklace 24)
+    │   ├── necklace25.jpg          (Geometric Necklace 25)
+    │   ├── necklace26.jpg          (Antique Necklace 26)
+    │   ├── necklace27.jpg          (Contemporary Necklace 27)
+    │   ├── necklace28.jpg          (Designer Necklace 28)
+    │   ├── necklace29.jpg          (Premium Necklace 29)
+    │   ├── watch1.jpg              (Gold Watch 1)
+    │   ├── watch2.jpg              (Silver Watch 2)
+    │   ├── watch3.jpg              (Diamond Watch 3)
+    │   ├── watch4.jpg              (Luxury Watch 4)
+    │   ├── watch5.jpg              (Designer Watch 5)
+    │   ├── watch6.jpg              (Classic Watch 6)
+    │   └── watch7.jpg              (Premium Watch 7)
+    ├── wigs/
+    │   ├── wig1.jpg                (Curly Hair Wig 1)
+    │   ├── wig2.jpg                (Straight Hair Wig 2)
+    │   ├── wig3.jpg                (Wavy Hair Wig 3)
+    │   ├── wig4.jpg                (Long Hair Wig 4)
+    │   ├── wig5.jpg                (Short Hair Wig 5)
+    │   ├── wig6.jpg                (Blonde Hair Wig 6)
+    │   └── wig7.jpg                (Premium Hair Wig 7)
+    ├── perfumes/
+    │   ├── perfume1.jpg            (Floral Perfume 1)
+    │   ├── perfume2.jpg            (Citrus Perfume 2)
+    │   ├── perfume3.jpg            (Woody Perfume 3)
+    │   ├── perfume4.jpg            (Oriental Perfume 4)
+    │   ├── perfume5.jpg            (Fresh Perfume 5)
+    │   └── perfume6.jpg            (Luxury Perfume 6)
+    └── skincare/
+        ├── skincare1.jpg           (Face Cream 1)
+        ├── skincare2.jpg           (Serum 2)
+        ├── skincare3.jpg           (Cleanser 3)
+        ├── skincare4.jpg           (Moisturizer 4)
+        ├── skincare5.jpg           (Toner 5)
+        ├── skincare6.jpg           (Face Mask 6)
+        ├── skincare7.jpg           (Eye Cream 7)
+        └── skincare8.jpg           (Sunscreen 8)
+
+TOTAL IMAGES NEEDED: 50 images
+- 1 Owner photo
+- 36 Jewelry images (29 necklaces + 7 watches)
+- 7 Hair wig images
+- 6 Perfume images
+- 8 Skincare images

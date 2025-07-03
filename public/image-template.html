@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORLAS-PLACE - Image Upload Template</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fafafa;
+        }
+        .header {
+            background: linear-gradient(135deg, #d4af37, #f4e4bc);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .section {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .image-placeholder {
+            height: 150px;
+            background: #f0f0f0;
+            border: 2px dashed #ccc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            font-size: 12px;
+            text-align: center;
+            color: #666;
+        }
+        h1 { color: #8b4513; }
+        h2 { color: #d4af37; margin-bottom: 10px; }
+        .count { color: #666; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>ORLAS-PLACE</h1>
+        <p>Image Upload Template & Reference</p>
+    </div>
+
+    <div class="section">
+        <h2>Owner Photo (1 image)</h2>
+        <p class="count">Upload to: /public/images/</p>
+        <div class="image-grid">
+            <div class="image-placeholder">owner.jpg<br>Orla's Photo</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Jewelry Collection (36 images)</h2>
+        <p class="count">Upload to: /public/images/jewelry/</p>
+        
+        <h3>Necklaces (29 images)</h3>
+        <div class="image-grid">
+            <div class="image-placeholder">necklace1.jpg<br>Gold Chain</div>
+            <div class="image-placeholder">necklace2.jpg<br>Silver Pendant</div>
+            <div class="image-placeholder">necklace3.jpg<br>Diamond</div>
+            <div class="image-placeholder">necklace4.jpg<br>Pearl</div>
+            <div class="image-placeholder">necklace5.jpg<br>Crystal</div>
+            <div class="image-placeholder">necklace6.jpg<br>Choker</div>
+            <div class="image-placeholder">necklace7.jpg<br>Statement</div>
+            <div class="image-placeholder">necklace8.jpg<br>Layered</div>
+            <div class="image-placeholder">necklace9.jpg<br>Vintage</div>
+            <div class="image-placeholder">necklace10.jpg<br>Modern</div>
+            <div class="image-placeholder">necklace11.jpg<br>Elegant</div>
+            <div class="image-placeholder">necklace12.jpg<br>Luxury</div>
+            <div class="image-placeholder">necklace13.jpg<br>Classic</div>
+            <div class="image-placeholder">necklace14.jpg<br>Trendy</div>
+            <div class="image-placeholder">necklace15.jpg<br>Bohemian</div>
+            <div class="image-placeholder">necklace16.jpg<br>Minimalist</div>
+            <div class="image-placeholder">necklace17.jpg<br>Bold</div>
+            <div class="image-placeholder">necklace18.jpg<br>Delicate</div>
+            <div class="image-placeholder">necklace19.jpg<br>Sparkly</div>
+            <div class="image-placeholder">necklace20.jpg<br>Charm</div>
+            <div class="image-placeholder">necklace21.jpg<br>Beaded</div>
+            <div class="image-placeholder">necklace22.jpg<br>Gemstone</div>
+            <div class="image-placeholder">necklace23.jpg<br>Art Deco</div>
+            <div class="image-placeholder">necklace24.jpg<br>Floral</div>
+            <div class="image-placeholder">necklace25.jpg<br>Geometric</div>
+            <div class="image-placeholder">necklace26.jpg<br>Antique</div>
+            <div class="image-placeholder">necklace27.jpg<br>Contemporary</div>
+            <div class="image-placeholder">necklace28.jpg<br>Designer</div>
+            <div class="image-placeholder">necklace29.jpg<br>Premium</div>
+        </div>
+
+        <h3>Watches (7 images)</h3>
+        <div class="image-grid">
+            <div class="image-placeholder">watch1.jpg<br>Gold Watch</div>
+            <div class="image-placeholder">watch2.jpg<br>Silver Watch</div>
+            <div class="image-placeholder">watch3.jpg<br>Diamond Watch</div>
+            <div class="image-placeholder">watch4.jpg<br>Luxury Watch</div>
+            <div class="image-placeholder">watch5.jpg<br>Designer Watch</div>
+            <div class="image-placeholder">watch6.jpg<br>Classic Watch</div>
+            <div class="image-placeholder">watch7.jpg<br>Premium Watch</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Hair Wigs Collection (7 images)</h2>
+        <p class="count">Upload to: /public/images/wigs/</p>
+        <div class="image-grid">
+            <div class="image-placeholder">wig1.jpg<br>Curly Hair</div>
+            <div class="image-placeholder">wig2.jpg<br>Straight Hair</div>
+            <div class="image-placeholder">wig3.jpg<br>Wavy Hair</div>
+            <div class="image-placeholder">wig4.jpg<br>Long Hair</div>
+            <div class="image-placeholder">wig5.jpg<br>Short Hair</div>
+            <div class="image-placeholder">wig6.jpg<br>Blonde Hair</div>
+            <div class="image-placeholder">wig7.jpg<br>Premium Hair</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Perfumes Collection (6 images)</h2>
+        <p class="count">Upload to: /public/images/perfumes/</p>
+        <div class="image-grid">
+            <div class="image-placeholder">perfume1.jpg<br>Floral</div>
+            <div class="image-placeholder">perfume2.jpg<br>Citrus</div>
+            <div class="image-placeholder">perfume3.jpg<br>Woody</div>
+            <div class="image-placeholder">perfume4.jpg<br>Oriental</div>
+            <div class="image-placeholder">perfume5.jpg<br>Fresh</div>
+            <div class="image-placeholder">perfume6.jpg<br>Luxury</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Skincare Collection (8 images)</h2>
+        <p class="count">Upload to: /public/images/skincare/</p>
+        <div class="image-grid">
+            <div class="image-placeholder">skincare1.jpg<br>Face Cream</div>
+            <div class="image-placeholder">skincare2.jpg<br>Serum</div>
+            <div class="image-placeholder">skincare3.jpg<br>Cleanser</div>
+            <div class="image-placeholder">skincare4.jpg<br>Moisturizer</div>
+            <div class="image-placeholder">skincare5.jpg<br>Toner</div>
+            <div class="image-placeholder">skincare6.jpg<br>Face Mask</div>
+            <div class="image-placeholder">skincare7.jpg<br>Eye Cream</div>
+            <div class="image-placeholder">skincare8.jpg<br>Sunscreen</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Quick Checklist</h2>
+        <ul>
+            <li>✅ Create folder structure in public/images/</li>
+            <li>✅ Take/collect 50 product photos</li>
+            <li>✅ Rename images according to the naming convention</li>
+            <li>✅ Upload images to correct folders</li>
+            <li>✅ Test website to ensure images display correctly</li>
+        </ul>
+    </div>
+</body>
+</html>
